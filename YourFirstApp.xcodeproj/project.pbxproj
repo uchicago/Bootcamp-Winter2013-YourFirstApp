@@ -12,12 +12,11 @@
 		3763FF0F16EACFDB0080AE71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3763FF0E16EACFDB0080AE71 /* CoreGraphics.framework */; };
 		3763FF1516EACFDB0080AE71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3763FF1316EACFDB0080AE71 /* InfoPlist.strings */; };
 		3763FF1716EACFDB0080AE71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3763FF1616EACFDB0080AE71 /* main.m */; };
-		3763FF1B16EACFDB0080AE71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3763FF1A16EACFDB0080AE71 /* AppDelegate.m */; };
 		3763FF1D16EACFDB0080AE71 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3763FF1C16EACFDB0080AE71 /* Default.png */; };
 		3763FF1F16EACFDB0080AE71 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3763FF1E16EACFDB0080AE71 /* Default@2x.png */; };
 		3763FF2116EACFDB0080AE71 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3763FF2016EACFDB0080AE71 /* Default-568h@2x.png */; };
-		3763FF2416EACFDB0080AE71 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3763FF2216EACFDB0080AE71 /* MainStoryboard.storyboard */; };
-		3763FF2716EACFDB0080AE71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3763FF2616EACFDB0080AE71 /* ViewController.m */; };
+		3763FF3116EAD09B0080AE71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3763FF2E16EAD09B0080AE71 /* AppDelegate.m */; };
+		3763FF3216EAD09B0080AE71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3763FF3016EAD09B0080AE71 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +28,13 @@
 		3763FF1416EACFDB0080AE71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3763FF1616EACFDB0080AE71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3763FF1816EACFDB0080AE71 /* YourFirstApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YourFirstApp-Prefix.pch"; sourceTree = "<group>"; };
-		3763FF1916EACFDB0080AE71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3763FF1A16EACFDB0080AE71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3763FF1C16EACFDB0080AE71 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3763FF1E16EACFDB0080AE71 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3763FF2016EACFDB0080AE71 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		3763FF2316EACFDB0080AE71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		3763FF2516EACFDB0080AE71 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3763FF2616EACFDB0080AE71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3763FF2D16EAD09B0080AE71 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3763FF2E16EAD09B0080AE71 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3763FF2F16EAD09B0080AE71 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3763FF3016EAD09B0080AE71 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +81,10 @@
 		3763FF1016EACFDB0080AE71 /* YourFirstApp */ = {
 			isa = PBXGroup;
 			children = (
-				3763FF1916EACFDB0080AE71 /* AppDelegate.h */,
-				3763FF1A16EACFDB0080AE71 /* AppDelegate.m */,
-				3763FF2216EACFDB0080AE71 /* MainStoryboard.storyboard */,
-				3763FF2516EACFDB0080AE71 /* ViewController.h */,
-				3763FF2616EACFDB0080AE71 /* ViewController.m */,
+				3763FF2D16EAD09B0080AE71 /* AppDelegate.h */,
+				3763FF2E16EAD09B0080AE71 /* AppDelegate.m */,
+				3763FF2F16EAD09B0080AE71 /* ViewController.h */,
+				3763FF3016EAD09B0080AE71 /* ViewController.m */,
 				3763FF1116EACFDB0080AE71 /* Supporting Files */,
 			);
 			path = YourFirstApp;
@@ -162,7 +159,6 @@
 				3763FF1D16EACFDB0080AE71 /* Default.png in Resources */,
 				3763FF1F16EACFDB0080AE71 /* Default@2x.png in Resources */,
 				3763FF2116EACFDB0080AE71 /* Default-568h@2x.png in Resources */,
-				3763FF2416EACFDB0080AE71 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,8 +170,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3763FF1716EACFDB0080AE71 /* main.m in Sources */,
-				3763FF1B16EACFDB0080AE71 /* AppDelegate.m in Sources */,
-				3763FF2716EACFDB0080AE71 /* ViewController.m in Sources */,
+				3763FF3116EAD09B0080AE71 /* AppDelegate.m in Sources */,
+				3763FF3216EAD09B0080AE71 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +184,6 @@
 				3763FF1416EACFDB0080AE71 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3763FF2216EACFDB0080AE71 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3763FF2316EACFDB0080AE71 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -298,6 +286,7 @@
 				3763FF2C16EACFDB0080AE71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
